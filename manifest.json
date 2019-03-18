@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "VWeather",
+  "description": "The custom made extension to get weather of mumbai",
+  "version": "1",
+  "author": "Valentino Pereira",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "content_security_policy": "script-src 'self'; object-src 'self'",
+  "permissions": [],
+  "icons": {
+    "16": "favicon-16x16.png",
+    "48": "favicon-32x32.png",
+    "96": "favicon-96x96.png"
+  }
+}
